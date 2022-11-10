@@ -1,0 +1,25 @@
+// COLORES
+$negro: #2f3130;
+$blanco: #fffdfa;
+$celeste: #97cfec;
+$rosa: #ffb3bd;
+$verde: #d6ead8;
+$amarillo: #ffe8c0;
+// SATURADOS
+$azul: #0b91d6;
+$verdeFuerte: #37d38d;
+
+
+// MIXIN
+@mixin d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin d-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

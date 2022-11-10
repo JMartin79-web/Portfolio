@@ -1,0 +1,11 @@
+.header{
+    position: absolute;
+    z-index: 10;
+    width: 100vw;
+    @include d-flex-center;
+    .header-div{
+
+        background-color: $verde;
+        padding: 50px;
+    }
+}
