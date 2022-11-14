@@ -1,0 +1,10 @@
+.proyectos{
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+    padding: 50px;
+    padding-top: 120px;
+    .proyectos-div{
+        @include div-width;
+    }
+}

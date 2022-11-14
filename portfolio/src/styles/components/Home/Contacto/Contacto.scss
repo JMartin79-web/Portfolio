@@ -1,0 +1,21 @@
+.contacto{
+    width: 100vw;
+    
+    .contacto-div{
+        @include div-width;
+        .contacto-info{
+            
+            display: flex;
+            .contacto-contactos{
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+            }
+            .contacto-foto{
+                width: 50%;
+                background-color: $verde;
+            }
+
+        }
+    }
+}

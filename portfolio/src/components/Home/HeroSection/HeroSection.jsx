@@ -4,11 +4,13 @@ function HeroSection() {
   
   return (
     <div className='herodiv'>
+      <div className='hero_presentation'>
       <p className='heroText'>Hola! <br/>
       Soy {herotext}
       </p>
-      <br />
-      <p>Sumo mis conocimientos de diseño con el desarrollo de productos digitales. </p>
+      </div>
+     
+      
     </div>
   )
 }

@@ -1,0 +1,20 @@
+.about{
+    background-color: $verde;
+    width: 100vw;
+    .about-div{
+        @include div-width;
+        
+        
+        background-color: $rosa;
+
+        display: flex;
+        .about-div-foto{
+            width: 30%;
+            background-color: $verde;
+        }
+        .about-div-txt{
+            width: 70%;
+            padding-left: 50px;
+        }
+    }
+}

@@ -23,3 +23,11 @@ $verdeFuerte: #37d38d;
     justify-content: center;
     align-items: center;
 }
+
+// contenedor div
+@mixin div-width {
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+    padding: 50px;
+}

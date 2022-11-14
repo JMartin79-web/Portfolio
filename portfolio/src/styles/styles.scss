@@ -10,5 +10,18 @@
 // FOOTER
 @import "./components/Footer.scss";
 
-// HERO SECTION
-@import "./components/HeroSection/HeroSection.scss"
+// BUTTON
+@import "./components/Button/Button.scss";
+
+// HOME
+    // HERO SECTION
+    @import "./components/Home/HeroSection/HeroSection.scss";
+
+    // ABOUT
+    @import "./components/Home/About/About.scss";
+   
+    // CONTACTO
+    @import "./components/Home/Contacto/Contacto.scss"; 
+
+// PROYECTOS
+@import "./components/Proyectos/Proyectos.scss";
