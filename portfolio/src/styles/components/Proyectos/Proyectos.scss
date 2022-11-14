@@ -2,9 +2,26 @@
     width: 100vw;
     position: relative;
     z-index: 1;
-    padding: 50px;
+    
     padding-top: 120px;
     .proyectos-div{
         @include div-width;
+
+        .proyectos-div-sec{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .category{
+                background-color: $verde;
+                width: 30%;
+                min-width: 50px;
+                min-height: 100px;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
     }
 }

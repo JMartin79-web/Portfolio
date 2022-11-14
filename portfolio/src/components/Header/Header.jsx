@@ -9,12 +9,12 @@ function Header() {
         <div className="header-div">
 
           <div className="header-div-logo">
-            <NavLink to="/">Martin Aguirre</NavLink>
+            <HashLink  smooth to="/#header">Martin Aguirre</HashLink>
           </div>
 
           <div className="header-div-links">
             <NavLink to="/proyectos">Proyectos</NavLink>
-            <HashLink  to="/#contacto">Contacto</HashLink >
+            <HashLink smooth to="/#contacto">Contacto</HashLink >
           </div>
 
         </div>

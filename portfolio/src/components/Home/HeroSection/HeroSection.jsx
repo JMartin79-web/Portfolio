@@ -3,7 +3,7 @@ function HeroSection() {
   let herotext = "Martin Aguirre";
   
   return (
-    <div className='herodiv'>
+    <div className='herodiv' id='header'>
       <div className='hero_presentation'>
       <p className='heroText'>Hola! <br/>
       Soy {herotext}
