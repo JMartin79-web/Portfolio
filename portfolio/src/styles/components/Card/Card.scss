@@ -1,0 +1,13 @@
+.card{
+    
+    display: flex;
+    justify-content: space-between;
+    .card-div-img{
+        width: 30%;
+        padding: 50px;
+    }
+    .card-div-txt{
+        width: 70%;
+        padding: 50px;
+    }
+}

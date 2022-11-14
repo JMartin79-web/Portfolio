@@ -16,10 +16,15 @@
                 width: 30%;
                 min-width: 50px;
                 min-height: 100px;
-
+                border-radius: 25px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+
+                cursor: pointer;
+                &:hover{
+                    font-weight: 600;
+                }
             }
         }
 
