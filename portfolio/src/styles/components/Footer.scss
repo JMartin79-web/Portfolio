@@ -1,7 +1,11 @@
 .footer{
     width: 100vw;
-
+    margin-top: 50px;
+    position:relative;
+    bottom: 0;
+    background-color: $negro;
     .footer-div{
         @include div-width;
+        p{color:$blanco;}
     }
 }

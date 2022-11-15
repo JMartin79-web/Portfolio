@@ -5,7 +5,7 @@ import Ilustracion from './ProyectosPagina/Ilustracion'
 
 
 function Proyectos() {
-  const [categoria, setCategoria] = useState(<div></div>)
+  const [categoria, setCategoria] = useState(<div className='category-placeholder'></div>)
   // FUNCIONES QUE MUESTREN LAS TARJETAS CON LOS TRABAJOS
   function mostrarDiseño(){
     setCategoria(
@@ -46,8 +46,6 @@ function Proyectos() {
   return (
     <div className='proyectos'>
         <div className="proyectos-div">
-
-
             <h1>PROYECTOS</h1>
             <Divisor color="#2f3130"></Divisor>
             <div className='proyectos-div-sec'>
@@ -56,10 +54,7 @@ function Proyectos() {
               <div className="category" onClick={()=>{mostrarProgramacion()}}>Programación</div>
             </div>
 
-
-            <div className="proyectos-div-trabajos" children={categoria}>
-              
-            </div>
+            <div className="proyectos-div-trabajos" children={categoria}></div>
         
         </div>
     </div>

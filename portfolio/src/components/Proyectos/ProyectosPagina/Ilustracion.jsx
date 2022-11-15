@@ -20,12 +20,36 @@ function Ilustracion() {
   const [imgGrande, setImgGrande] = useState("sin estado")
   const arrayImg = [redraw, auto, up_img, up_gif, ilust, ilust2, punto_fuga, pato, boceto,girl]
 
-  function handleOpenImg(source){
-    console.log(source.img)
-    setImgGrande(source.img)
-  }
-
+  function handleOpenImg(source){setImgGrande(source.img)}
+  function handleCloseImg(){setImgGrande("sin estado")}
   
+ 
+    return (
+      <div className='ilustracion'>
+        <Divisor color="#37d38d"></Divisor>
+        <div className='ilustracion-div'>
+        {
+          arrayImg.map((img)=>{
+            return(
+            <img src={img} key={img} alt={img} className="ilus-img"
+              onClick={()=>{handleOpenImg({img})}}
+              />)
+          })
+        }
+        </div>
+        
+        {imgGrande !=="sin estado"
+        ?<IlustraciónGrande img={`${imgGrande}`} onClick={()=>{handleCloseImg()}} />
+        : false
+        }
+      </div>
+    )
+
+}
+
+export default Ilustracion
+
+/*
   if(imgGrande ==="sin estado"){
     return (
       <div className='ilustracion'>
@@ -50,9 +74,7 @@ function Ilustracion() {
     return(
       <IlustraciónGrande
         img={`${imgGrande}`}
-        onClick={()=>{}} />
+        onClick={()=>{handleCloseImg()}} />
     )
   }
-}
-
-export default Ilustracion
+*/

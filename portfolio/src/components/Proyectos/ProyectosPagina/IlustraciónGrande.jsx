@@ -6,8 +6,12 @@ function IlustraciónGrande(props) {
   return (
     <div className='ilustraciónGrande'>
         <div className='ilustraciónGrande-contenedor'>
-            <Button className="ilust-btn" onClick={props.onClick} txt="x"></Button>
-            <div className='ilustraciónGrande-div'>
+          
+            <div className='ilustraciónGrande-div-btn'>
+              <Button className="ilust-btn" onClick={props.onClick} txt="x"></Button>
+            </div>
+            
+            <div className='ilustraciónGrande-div-img'>
                 <img src={props.img} id="bigImg" alt="imagen grande" />
             </div>
         </div>
