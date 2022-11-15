@@ -1,0 +1,27 @@
+.ilustracion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    .ilustracion-div{
+        width: 100%;
+        height: fit-content;
+        min-height: 100px;
+
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        #auto{column-span: all;}
+        &:first-child{column-span: all;}
+        .ilus-img{
+            width: 100%;
+            height: auto;
+            padding: 10px;
+            object-fit: cover;
+            overflow: hidden;
+            cursor: pointer;
+        }
+    }
+
+}

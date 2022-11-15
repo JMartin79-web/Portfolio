@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Card from '../Card/Card'
 import Divisor from '../Divisor/Divisor'
+import Ilustracion from './ProyectosPagina/Ilustracion'
 
 
 function Proyectos() {
@@ -8,7 +9,7 @@ function Proyectos() {
   // FUNCIONES QUE MUESTREN LAS TARJETAS CON LOS TRABAJOS
   function mostrarDiseño(){
     setCategoria(
-      <div>
+      <div className='categoria-div'>
         <Card
           titulo="hola"
           txt="lorem ipsum"
@@ -28,13 +29,17 @@ function Proyectos() {
 
   function mostrarIlus(){
     setCategoria(
-      <div> como</div>
+      <div className='categoria-div'>
+        <Ilustracion></Ilustracion>
+      </div>
     )
   }
 
   function mostrarProgramacion(){
     setCategoria(
-      <div> Estas</div>
+      <div className='categoria-div'>
+        Estas
+      </div>
     )
   }
 
