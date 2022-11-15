@@ -8,7 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import Proyectos from "./components/Proyectos/Proyectos";
 import IlustraciónGrande from "./components/Proyectos/ProyectosPagina/IlustraciónGrande";
-
+import Probar from "./components/Probar";
 
 function App() {
   return (
@@ -23,7 +23,6 @@ function App() {
       {/* PROYECTOS */}
       <Route path="/proyectos" element={<Proyectos></Proyectos>}></Route>
 
-      <Route path="/ilusGrande" element={<IlustraciónGrande/>}></Route>
       </Routes>
       <Footer></Footer>
     </BrowserRouter>

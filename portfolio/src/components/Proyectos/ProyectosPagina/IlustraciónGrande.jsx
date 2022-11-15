@@ -12,6 +12,7 @@ function IlustraciónGrande(props) {
             </div>
         </div>
 
+        {/* FILTRO DEL FONDO*/}
         <div className='ilus-Bg'></div>
     </div>
   )

@@ -5,6 +5,8 @@
     
     padding-top: 120px;
     .proyectos-div{
+        position: relative;
+        z-index: 1;
         @include div-width;
 
         .proyectos-div-sec{
