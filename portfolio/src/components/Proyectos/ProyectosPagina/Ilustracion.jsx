@@ -4,7 +4,6 @@ import IlustraciónGrande from './IlustraciónGrande'
 
 
 // IMÁGENES
-
 import redraw from "../../../assets/ilustracion/redraw.jpg"
 import auto from "../../../assets/ilustracion/auto.jpg"
 import up_img from "../../../assets/ilustracion/up_img.jpg"
@@ -26,7 +25,6 @@ function Ilustracion() {
  
     return (
       <div className='ilustracion'>
-        <Divisor color="#37d38d"></Divisor>
         <div className='ilustracion-div'>
         {
           arrayImg.map((img)=>{
@@ -48,33 +46,3 @@ function Ilustracion() {
 }
 
 export default Ilustracion
-
-/*
-  if(imgGrande ==="sin estado"){
-    return (
-      <div className='ilustracion'>
-        <Divisor color="#37d38d"></Divisor>
-        <div className='ilustracion-div'>
-        {
-          arrayImg.map((img)=>{
-            return(
-            <img src={img} key={img} alt={img} className="ilus-img"
-              onClick={()=>{handleOpenImg({img})}}
-              />)
-          })
-        }
-        </div>
-        
-  
-      </div>
-    )
-  }
-  else{
-
-    return(
-      <IlustraciónGrande
-        img={`${imgGrande}`}
-        onClick={()=>{handleCloseImg()}} />
-    )
-  }
-*/

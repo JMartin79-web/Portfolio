@@ -3,6 +3,8 @@ import Card from '../Card/Card'
 import Divisor from '../Divisor/Divisor'
 import Ilustracion from './ProyectosPagina/Ilustracion'
 
+// fotos
+
 
 function Proyectos() {
   const [categoria, setCategoria] = useState(<div className='category-placeholder'></div>)
@@ -11,17 +13,18 @@ function Proyectos() {
     setCategoria(
       <div className='categoria-div'>
         <Card
-          titulo="hola"
-          txt="lorem ipsum"
+          
+          titulo="Tarjeta de negocio"
+          txt="Diseño para un negocio de fisioterapia"
         />
 
         <Card
-          titulo="hola"
-          txt="lorem ipsum"
+          titulo="Cucú Pipí"
+          txt="Un ejercicio sobre la creación de una identidad visual para una agencia ficticia de diseño."
         />
         <Card
-          titulo="hola"
-          txt="lorem ipsum"
+          titulo="Convocatoria Elvis"
+          txt={`Piezas gráficas para un concurso de diseño basado en un "artista que desarrolla espectáculos musicales basados en la figura de Elvis Presley, el mítico rey del rock."`}
         />
       </div>
     )
@@ -44,7 +47,7 @@ function Proyectos() {
   }
 
   return (
-    <div className='proyectos'>
+    <div className='proyectos' id='proyectos'>
         <div className="proyectos-div">
             <h1>PROYECTOS</h1>
             <Divisor color="#2f3130"></Divisor>

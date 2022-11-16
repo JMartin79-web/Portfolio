@@ -6,6 +6,6 @@
     background-color: $negro;
     .footer-div{
         @include div-width;
-        p{color:$blanco;}
+        h3,p{color:$blanco;}
     }
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';
 function Header() {
   return (
@@ -13,7 +12,7 @@ function Header() {
           </div>
 
           <div className="header-div-links">
-            <NavLink to="/proyectos">Proyectos</NavLink>
+            <HashLink smooth to="/proyectos#proyectos">Proyectos</HashLink>
             <HashLink smooth to="/#contacto">Contacto</HashLink >
           </div>
 

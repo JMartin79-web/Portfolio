@@ -4,7 +4,10 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='footer-div'>
-            <p>footer</p>
+            <h3>Gracias por visitar mi portafólio!</h3>
+            <p>Espero que ye haya gustado. <br/>
+            
+            </p>
         </div>
 
     </div>
