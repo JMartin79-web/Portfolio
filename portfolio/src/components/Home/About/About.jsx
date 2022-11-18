@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../../Button/Button'
+import ColorTxt from '../../ColorTxt/ColorTxt'
 import Title from '../../Title/Title'
 
 function About() {
@@ -14,7 +15,8 @@ function About() {
         </div>
 
         <div className='about-div-txt'>
-          <Title title="Sobre mí"></Title>
+          <ColorTxt colortxt="#ffb3bd" txt="About"></ColorTxt>
+          <Title title="Hola!"></Title>
           <p>Mi nombre es Martin Aguirre. Soy un diseñador y desarrollador web Front-End. 
           <br />
           Estudié diseño multimedial en la universidad ISEC (no finalizado), y actualmente me encuentro cursando la carrera de Desarrollo Web Full Stack en Coderhouse.  Además de estar estudiando #YoProgramo, la segunda etapa de “Argentina Programa”, un programa nacional y federal que tiene como objetivo capacitar a personas en lenguajes y conocimientos sobre programación. 

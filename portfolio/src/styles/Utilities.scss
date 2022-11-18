@@ -34,3 +34,15 @@ $blanco50: #fffdfabe;
     margin: auto;
     padding: 50px;
 }
+
+@mixin div-width100 {
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+}
+
+@mixin div-2col {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

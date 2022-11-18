@@ -1,0 +1,58 @@
+.fisioterapia-portada{
+    padding-top: 120px;
+    img{width: 100vw; overflow: hidden; object-fit: contain;}
+    position:relative;
+}
+
+.fisioterapia{
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: $blanco;
+
+    .fisioterapia-div{
+        width: 100%;
+        max-width: 1080px;
+
+        .fisioterapia-sec{
+            padding: 25px 0px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .fisioterapia-sec-2col{
+            padding: 25px 0px;
+            
+            display: flex;
+            align-items: center;
+            .fisioterapia-sec-txt{width: 75%;padding-right: 20px;}
+            .fisioterapia-sec-img{width: 25%;}
+        }
+
+        .fisioterapia-sec-2col50{
+            @include div-2col;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+
+    }
+
+    
+}
+
+.fisioterapia2{
+    background-color: $negro;
+    h2,p{color: $blanco;}
+    width: 100vw;
+    .fisioterapia2-div{
+        @include div-width100;
+        padding: 50px 0px;
+    }
+}

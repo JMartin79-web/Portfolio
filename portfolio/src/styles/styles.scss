@@ -13,8 +13,14 @@
 // BUTTON
 @import "./components/Button/Button.scss";
 
+// TITLE
+@import "./components/Title/Title.scss";
+
 // DIVISOR
 @import "./components/Divisor/Divisor.scss";
+
+// COLOR TXT
+@import "./components/ColorTxt/ColorTxt.scss";
 
 // CARD
 @import "./components/Card/Card.scss";
@@ -35,5 +41,12 @@
     // ILUSTRACION
     @import "./components/Proyectos/Ilustracion.scss";
     @import "./components/Proyectos/IlustracionGrande.scss";
+
+        // TRABAJOS
+        @import "./components/Proyectos/ProyectosPagina/Trabajos/CoderJS.scss";
+        @import "./components/Proyectos/ProyectosPagina/Trabajos/Conpas.scss";
+        @import "./components/Proyectos/ProyectosPagina/Trabajos/Cucu.scss";
+        @import "./components/Proyectos/ProyectosPagina/Trabajos/Elvis.scss";
+        @import "./components/Proyectos/ProyectosPagina/Trabajos/Fisioterapia.scss";
 
 

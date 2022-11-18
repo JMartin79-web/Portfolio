@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Button from '../Button/Button'
 
 function Card(props) {
@@ -10,7 +11,10 @@ function Card(props) {
         <div className='card-div-txt'>
             <h3 className='card-div-title'> {props.titulo} </h3>
             <p className='card-div-p'> {props.txt} </p>
-            <Button txt="ver más"></Button>
+            <Link to={props.linkto}>
+              <Button txt="ver más"></Button>
+            </Link>
+            
         </div>
 
     </div>

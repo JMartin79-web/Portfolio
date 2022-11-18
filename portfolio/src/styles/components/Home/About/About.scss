@@ -1,12 +1,8 @@
 .about{
-    background-color: $verde;
+
     width: 100vw;
     .about-div{
         @include div-width;
-        
-        
-        background-color: $rosa;
-
         display: flex;
         .about-div-foto{
             width: 30%;

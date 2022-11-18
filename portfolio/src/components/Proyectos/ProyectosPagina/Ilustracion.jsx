@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import Divisor from '../../Divisor/Divisor'
 import IlustraciónGrande from './IlustraciónGrande'
 
 

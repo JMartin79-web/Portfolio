@@ -1,11 +1,13 @@
 import React from 'react'
+import ColorTxt from '../../ColorTxt/ColorTxt'
 import Title from '../../Title/Title'
 
 function Contacto() {
   return (
     <div className='contacto' id='contacto'>
         <div className='contacto-div'>
-            <Title title="Contactame"></Title>
+          <ColorTxt colortxt="#ffb3bd" txt="contacto"></ColorTxt>
+            <Title title="¿Qué puedo hacer por vos?"></Title>
             <div className='contacto-info'>
                 <div className="contacto-contactos">
                 <div className='contacto-red-social'><a href='https://api.whatsapp.com/send/?phone=541121902602&text&app_absent=0' target="blank">icono - Whatsapp</a></div>
