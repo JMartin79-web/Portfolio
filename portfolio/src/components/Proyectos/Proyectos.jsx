@@ -15,25 +15,28 @@ function Proyectos() {
     setCategoria(
       <div className='categoria-div'>
         <Divisor color="#2f3130"></Divisor>
-        <Card
-          img={fisioterapia}
-          titulo="Tarjeta de negocio"
-          txt="Diseño para un negocio de fisioterapia"
-          linkto="/proyectos/diseño/fisioterapia"
-        />
+        <div className='categoria-div-grid'>
+          <Card
+            img={fisioterapia}
+            titulo="Tarjeta de negocio"
+            txt="Diseño para un negocio de fisioterapia"
+            linkto="/proyectos/diseño/fisioterapia"
+          />
 
-        <Card
-          img={cucu}
-          titulo="Cucú Pipí"
-          txt="Un ejercicio sobre la creación de una identidad visual para una agencia ficticia de diseño."
-          linkto="/proyectos/diseño/cucu"
-        />
-        <Card
-          img={elvis}
-          titulo="Convocatoria Elvis"
-          txt={`Piezas gráficas para un concurso de diseño basado en un "artista que desarrolla espectáculos musicales basados en la figura de Elvis Presley, el mítico rey del rock."`}
-          linkto="/proyectos/diseño/elvis"
-        />
+          <Card
+            img={cucu}
+            titulo="Cucú Pipí"
+            txt="Creación de una identidad visual para una agencia ficticia de diseño."
+            linkto="/proyectos/diseño/cucu"
+          />
+          <Card
+            img={elvis}
+            titulo="Convocatoria Elvis"
+            txt={`Piezas gráficas para un concurso basado en Elvis Presley`}
+            linkto="/proyectos/diseño/elvis"
+          />
+          
+        </div>
       </div>
     )
   }
