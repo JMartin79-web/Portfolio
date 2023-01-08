@@ -3,6 +3,9 @@ import Button from '../../Button/Button'
 import ColorTxt from '../../ColorTxt/ColorTxt'
 import Title from '../../Title/Title'
 
+// fondo
+import about_bg from "../../../assets/about_bg.svg"
+
 function About() {
   return (
     <>
@@ -17,32 +20,24 @@ function About() {
         <div className='about-div-txt'>
           <ColorTxt colortxt="#ffb3bd" txt="About"></ColorTxt>
           <Title title="Hola!"></Title>
-          <p>Mi nombre es Martin Aguirre. Soy un diseñador y desarrollador web Front-End. 
-          <br />
-          Estudié diseño multimedial en la universidad ISEC (no finalizado), y actualmente me encuentro cursando la carrera de Desarrollo Web Full Stack en Coderhouse.  Además de estar estudiando #YoProgramo, la segunda etapa de “Argentina Programa”, un programa nacional y federal que tiene como objetivo capacitar a personas en lenguajes y conocimientos sobre programación. 
-          <br />
-          También realicé más de 20 cursos en la plataforma Crehana. Algunos de ellos son: 
-          <br />
-          Manejo y retoque en Photoshop 
-
-          Introduccion a la direccion de arte publicitaria 
-
-          Dirección de Arte para redes sociales 
-
-          Creacion de identidades visuales / Branding emocional 
-
-          Identidad corporativa 
-
-          Técnicas y aplicación del diseño con tipografía 
-          <br />
-          Me considero una persona responsable y muy curiosa, me encanta aprender. Trato de llevar esa forma de pensar a todo lo que hago. Siempre busco mejorar tanto mis habilidades profesionales como mis cualidades personales.  </p>
-          <Button txt="ver cv"></Button>
-          <Button txt="descargar cv"></Button>
-          
+          <p>Mi nombre es Martin Aguirre. Soy un diseñador y desarrollador web Front-End (React). Actualmente estudio desarrollo back-end.
+          <br/><br/>
+          Me considero una persona responsable y muy curiosa, me encanta aprender. Trato de llevar esa forma de pensar a todo lo que hago. Siempre busco mejorar tanto mis habilidades profesionales como mis cualidades personales. 
+          <br/><br/>
+          Busco perfeccionar mis habilidades en el mundo IT, así como juntarlas con mis conocimientos en diseño para lograr crear los mejores productos digitales posibles, equilibrando estética con funcionalidad. 
+          </p>
         </div>
-      
-      </div>
         
+      </div>
+
+      <div className="about-div-btn">
+        <p>Si querés saber más sobre mis estudios, habilidades, experiencia laboral, entre otras cosas, descargá o mirá mi curriculum vitae.</p>
+        <div className="about-div-btn-btns">
+            <Button txt="ver cv"></Button>
+            <Button txt="descargar cv"></Button>
+        </div>
+      </div>
+
     </div>
     </>
   )

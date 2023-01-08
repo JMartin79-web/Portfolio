@@ -5,8 +5,7 @@ function HeroSection() {
   return (
     <div className='herodiv' id='header'>
       <div className='hero_presentation'>
-      <p className='heroText'>Hola! <br/>
-      Soy {herotext}
+      <p className='heroText'>{herotext}
       </p>
       </div>
      

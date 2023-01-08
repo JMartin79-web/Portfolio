@@ -1,5 +1,4 @@
 .about{
-
     width: 100vw;
     .about-div{
         @include div-width;
@@ -11,6 +10,21 @@
         .about-div-txt{
             width: 70%;
             padding-left: 50px;
+        }
+    }
+
+    .about-div-btn{
+        @include div-width;
+        padding: 0px 50px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .about-div-btn-btns{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
         }
     }
 }

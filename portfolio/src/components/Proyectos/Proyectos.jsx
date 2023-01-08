@@ -66,7 +66,7 @@ function Proyectos() {
     <div className='proyectos' id='proyectos'>
         <div className="proyectos-div">
             <h1>PROYECTOS</h1>
-            
+            <br/><br/>
             <div className='proyectos-div-sec'>
               <div className="category" onClick={ () => {mostrarDiseño()}}>Diseño</div>
               <div className="category" onClick={()=>{mostrarIlus()}}>Ilustración</div>

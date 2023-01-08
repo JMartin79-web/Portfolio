@@ -67,6 +67,9 @@ function Fisioterapia() {
           <img src={boceto_tarjeta1} alt="boceto tarjeta 1" />
           <img src={boceto_tarjeta2} alt="boceto tarjeta 2" />
         </div>
+        <br/>
+        <p>Si prestaste atención a la portada de este proyecto, ya sabés cual de las dos eligió el cliente.</p>
+
 
         </div>
     </div>

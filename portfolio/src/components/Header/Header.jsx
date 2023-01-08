@@ -12,6 +12,7 @@ function Header() {
           </div>
 
           <div className="header-div-links">
+            <HashLink smooth to="/">Inicio</HashLink>
             <HashLink smooth to="/proyectos#proyectos">Proyectos</HashLink>
             <HashLink smooth to="/#contacto">Contacto</HashLink >
           </div>
